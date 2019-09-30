@@ -1,6 +1,13 @@
-.logo{
+.logo img{
     font-size: 33px;
     text-transform: lowercase;
     color: #1b4124;
     font-weight: 500;
+    height: 51px;
+}
+.logo {
+    font-size: 26px;
+    text-transform: lowercase;
+    color: #5aae66;
+    font-weight: 600;
 }

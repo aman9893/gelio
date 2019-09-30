@@ -682,7 +682,7 @@ li.social-links a {
     display: block;
     position: relative;
     overflow: hidden;
-    padding: 20px 0;
+    padding: 70px 0;
 }
 
 .noover {
@@ -3428,3 +3428,4 @@ select.mobile-device {
 .dmtop.show {
     bottom: 20px;
 }
+

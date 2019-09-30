@@ -14,7 +14,6 @@ export const  AppRoutes: Routes = [
     { path:'features', component: FeaturesComponent},
     { path:'portfolio', component: PortfiloComponent},
     { path:'solution', component: SolutionComponent},
-    
     {path:'about',component:AboutUsComponent},
     { path: "", redirectTo: "home", pathMatch: "full" },
     { path: "**", component: HomeComponent }
