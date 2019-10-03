@@ -16,7 +16,8 @@ import { FeaturesComponent } from './page/features/features.component';
 import { AboutUsComponent } from './page/about-us/about-us.component';
 import { PortfiloComponent } from './page/portfilo/portfilo.component';
 import { SolutionComponent } from './page/solution/solution.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatTabsModule} from '@angular/material/tabs';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +38,8 @@ import { SolutionComponent } from './page/solution/solution.component';
   imports: [
     BrowserModule,
     ROUTING,
+    BrowserAnimationsModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

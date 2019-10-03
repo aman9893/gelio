@@ -12,7 +12,6 @@
 .abotwrapper{
     background: linear-gradient(90deg, #2774AE 0%, #56ac61 50%, #002E5D 100%);
     color: white;
-    height: 557px;
     padding: 89px;
 }
 .abouttitle{
@@ -28,13 +27,25 @@
     .abotwrapper{
         background: linear-gradient(90deg, #2774AE 0%, #56ac61 50%, #002E5D 100%);
         color: white;
-        height: 557px;
-        padding: 0px;
+        padding: 31px;
     }
-    
+
+
 .post-media2 img {
-    height: 90px;
+    height: 131px;
 }
+
+@media only screen and (max-width: 708px) {
+    .abotwrapper{
+        background: linear-gradient(90deg, #2774AE 0%, #56ac61 50%, #002E5D 100%);
+        color: white;
+        padding: 31px;
+    }
+    .post-media2 img {
+        height: 100px;
+    }
+}
+
 
 .imgdata img{
     z-index: 0;

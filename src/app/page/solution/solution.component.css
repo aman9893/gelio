@@ -11,3 +11,28 @@ img {
   img:hover {
    
   }
+
+  @media only screen and (max-width: 600px) {
+    .imglist{
+        background: linear-gradient(90deg, #2774AE 0%, #56ac61 50%, #002E5D 100%);
+        color: white;
+        padding: 31px;
+    }
+
+
+.imglist img {
+    height: 131px;
+}
+  }
+
+@media screen and (min-width: 1024px) and (max-height: 1310px) {
+    .imglist{
+        background: linear-gradient(90deg, #2774AE 0%, #56ac61 50%, #002E5D 100%);
+        color: white;
+        padding: 31px;
+    }
+    .imglist img {
+        height: 505px;
+    }
+}
+  
