@@ -58,3 +58,19 @@
     text-align: center;
 }
 }
+
+.youtubeviode{
+ text-align: center;
+}
+.youtubeviode>iframe{
+    width: 800px;
+    height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+    .youtubeviode>iframe{
+        width: 257px;
+        height: 200px;
+    }
+
+}
